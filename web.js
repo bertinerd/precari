@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World!');
+  response.send('Ok. This is my first edit to Heroku, don\'t take it seriously.');
 });
 
 var port = process.env.PORT || 5000;
