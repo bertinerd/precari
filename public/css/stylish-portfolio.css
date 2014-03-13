@@ -6,6 +6,31 @@ body {
   width: 100%;
 }
 
+#central-menu {
+  background-color: #cfe0e7;
+}
+.central-menu-item {
+  padding-top: 6%;
+  padding-bottom: 2%;
+  display: table-cell;
+  text-align: center;
+}
+
+#central-menu-logo {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#top {
+padding-top: 6%;
+padding-bottom: 6%;
+background-color: #a8c4d0;
+}
+
+#btn-tellmemore{
+  padding-top: 5%;
+}
+
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -19,9 +44,21 @@ body {
   font-weight: 700;
 }
 
-#intro-pane {
-  color: honeydew;
+#about {
+padding-top: 6%;
+padding-bottom: 6%;
+background-color: #88989f;
 }
+
+#main {
+padding-top: 6%;
+padding-bottom: 6%;
+background-color: #cfe0e7;
+}
+
+}
+
+
 
 /* Side Menu */
 
@@ -120,23 +157,17 @@ body {
 
 /* Full Page Image Header Area */
 
-.header {
-  display: table;
-  height: 100%;
+  /*display: table;*/
+/*  height: 100%;
   width: 100%;
-  position: relative;
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+  position: relative;*/
+  /*background: url(../img/bg.jpg) no-repeat center center fixed; */
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
+  background-size: cover;*/
 
 /* Intro */
-
-.intro {
-  padding: 50px 0;
-}
 
 /* Services */
 
