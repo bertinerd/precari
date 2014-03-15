@@ -7,6 +7,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: auto;
+  position: relative;
+  /*width: 960px;  */
+}
+
+p {
+padding-top: 1%;
+padding-bottom: 1%;
 }
 
 h2 {
@@ -74,7 +82,7 @@ font-family: 'Open-Sans', sans-serif;
 font-size: 19px;
 text-align: justify;
 /*letter-spacing: 0.9px;*/
-line-height: 45px;
+line-height: 35px;
 
 
 }
@@ -85,10 +93,23 @@ padding-bottom: 6%;
 background-color: white;
 }
 
+/***** D3 Related *******/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
 
 
-
-
+/* ********************************************************************** */
 /* Side Menu */
 
 #sidebar-wrapper {
