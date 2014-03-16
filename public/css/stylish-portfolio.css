@@ -19,18 +19,18 @@ padding-bottom: 1%;
 
 h2 {
  font-family: 'Poiret One', cursive;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 46px;
   font-size: 48px;
-  color: #88989f;
+  color: #333333;
 }
 
 h3 {
  font-family: 'Poiret One', cursive;
-  font-weight: bold;
+  font-weight: normal;
   /*line-height: 46px;*/
   /*font-size: 48px;*/
-  color: #88989f;
+  color: #333333;
 }
 
 .miniature {
@@ -130,10 +130,19 @@ line-height: 35px;
 /***** TEAM *************/
 #team {
   background: white;
-  padding: 50px 0;
   color: #333333;
+  padding-top: 6%;
+  padding-bottom: 6%
+
+}
+
+.shortbio{
   font-family: 'Open-Sans', sans-serif;
-  font-size: 19px;
+  font-size: 12px;
+  text-align: justify;
+  padding-top: 10%;
+  /*padding-bottom: 6%*/
+
 }
 
 .service-item {
