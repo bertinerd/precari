@@ -1,7 +1,6 @@
 /* Global Styles */
 
 @import url("http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans");
-/*@import url("http://fonts.googleapis.com/css?family=Medula+One");*/
 
 html,
 body {
@@ -15,6 +14,14 @@ body {
 p {
 padding-top: 1%;
 padding-bottom: 1%;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  line-height: 46px;
+  font-size: 60px;
+  color: #333333;
 }
 
 h2 {
@@ -86,6 +93,13 @@ background-color: #a8c4d0;
   font-weight: 700;
 }
 
+#titolo_articolo {
+padding-top: 3%;
+padding-bottom: 3%;
+background-color: #f0f4f7;
+text-align: center;
+}
+
 .fascia {
 padding-top: 6%;
 padding-bottom: 6%;
@@ -100,19 +114,19 @@ line-height: 35px;
 padding-top: 15%;
 }
 
-#zero, #due{
+#uno, #tre {
 background-color: #f0f4f7;
 }
 
 
-#uno #tre{
+#zero, #due, #quattro{
 background-color: white;
 }
 
 
 /***** TEAM *************/
 #team {
-  background: white;
+  background: #f0f4f7;
   color: #333333;
   padding-top: 6%;
   padding-bottom: 6%
@@ -145,7 +159,7 @@ i.service-icon {
 
 footer {
   padding: 100px 0;
-  background-color: #f0f4f7;
+  background-color: white;
 }
 
 
@@ -340,12 +354,6 @@ form {
         border: none;
 }
 
-/* Footer */
-
-footer {
-  padding: 100px 0;
-  background-color: #f0f4f7;
-}
 
 .top-scroll {
   margin-top: 50px;
