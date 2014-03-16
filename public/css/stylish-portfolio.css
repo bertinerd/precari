@@ -19,9 +19,27 @@ padding-bottom: 1%;
 
 h2 {
  font-family: 'Poiret One', cursive;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 46px;
   font-size: 48px;
+  color: #88989f;
+}
+
+h3 {
+ font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  /*line-height: 46px;*/
+  /*font-size: 48px;*/
+  color: #88989f;
+}
+
+.miniature {
+    font-family: 'Poiret One', cursive;
+    font-weight: normal;
+    line-height: 46px;
+    font-size: 48px;
+    color: #333333;
+
 }
 
 #central-menu {
@@ -74,7 +92,7 @@ padding-bottom: 6%;
 background-color: #88989f;
 }
 
-#uno {
+#zero {
 padding-top: 6%;
 padding-bottom: 6%;
 background-color: #f0f4f7;
@@ -83,15 +101,62 @@ font-size: 19px;
 text-align: justify;
 /*letter-spacing: 0.9px;*/
 line-height: 35px;
+}
 
 
+#uno {
+padding-top: 6%;
+padding-bottom: 6%;
+background-color: white;
+font-family: 'Open-Sans', sans-serif;
+font-size: 19px;
+text-align: justify;
+/*letter-spacing: 0.9px;*/
+line-height: 35px;
 }
 
 #due {
 padding-top: 6%;
 padding-bottom: 6%;
 background-color: white;
+font-family: 'Open-Sans', sans-serif;
+font-size: 19px;
+text-align: justify;
+/*letter-spacing: 0.9px;*/
+line-height: 35px;
 }
+
+
+/***** TEAM *************/
+#team {
+  background: white;
+  padding: 50px 0;
+  color: #333333;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 19px;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+footer {
+  padding: 100px 0;
+  background-color: #f0f4f7;
+}
+
 
 /***** D3 Related *******/
 
@@ -221,27 +286,7 @@ form {
 
 /* Services */
 
-.services {
-  background: #202020;
-  padding: 50px 0;
-  color: #ffffff;
-}
 
-.service-item {
-  margin-bottom: 15px;
-}
-
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
 
 /* Callout */
 
@@ -308,6 +353,7 @@ i.service-icon {
 
 footer {
   padding: 100px 0;
+  background-color: #f0f4f7;
 }
 
 .top-scroll {
