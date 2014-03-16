@@ -86,44 +86,27 @@ background-color: #a8c4d0;
   font-weight: 700;
 }
 
-#about {
+.fascia {
 padding-top: 6%;
 padding-bottom: 6%;
-background-color: #88989f;
+font-family: 'Open-Sans', sans-serif;
+font-size: 16px;
+text-align: justify;
+/*letter-spacing: 0.9px;*/
+line-height: 35px;
 }
 
-#zero {
-padding-top: 6%;
-padding-bottom: 6%;
+.img-side {
+padding-top: 15%;
+}
+
+#zero, #due{
 background-color: #f0f4f7;
-font-family: 'Open-Sans', sans-serif;
-font-size: 19px;
-text-align: justify;
-/*letter-spacing: 0.9px;*/
-line-height: 35px;
 }
 
 
-#uno {
-padding-top: 6%;
-padding-bottom: 6%;
+#uno #tre{
 background-color: white;
-font-family: 'Open-Sans', sans-serif;
-font-size: 19px;
-text-align: justify;
-/*letter-spacing: 0.9px;*/
-line-height: 35px;
-}
-
-#due {
-padding-top: 6%;
-padding-bottom: 6%;
-background-color: white;
-font-family: 'Open-Sans', sans-serif;
-font-size: 19px;
-text-align: justify;
-/*letter-spacing: 0.9px;*/
-line-height: 35px;
 }
 
 
@@ -139,10 +122,9 @@ line-height: 35px;
 .shortbio{
   font-family: 'Open-Sans', sans-serif;
   font-size: 12px;
+  line-height: 20px;
   text-align: justify;
   padding-top: 10%;
-  /*padding-bottom: 6%*/
-
 }
 
 .service-item {
