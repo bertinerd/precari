@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Amiamo raccontare i fatti con dati, parole ed immagini.">
+    <meta name="author" content="Data Moles">    
+    
+    <!-- for FB -->          
     <meta property="og:url" content="http://www.datamol.es"/>
-    <meta property="og:title" content="Data Moles"/>
+    <meta property="og:title" content="Data Moles - Blog di Data Journalism"/>
     <meta property="og:image" content="http://www.datamol.es/img/logo-02.png"/>
-    <meta property="og:description" content="Blog di Data Journalism"/>
-    <meta name="description" content="Blog di Data Journalism">
-    <meta name="author" content="">
+    <meta property="og:description" content="Amiamo raccontare i fatti con dati, parole ed immagini."/>
+
+    <!-- for Twitter -->          
+    <meta name="twitter:card" content="Data Moles" />
+    <meta name="twitter:title" content="Blog di Data Journalism" />
+    <meta name="twitter:description" content="Amiamo raccontare i fatti con dati, parole ed immagini." />
+    <meta name="twitter:image" content="http://www.datamol.es/img/logo-02.png" />
 
     <title>Data Moles</title>
 
@@ -18,6 +27,7 @@
     <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/social-likes_flat.css">
     <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">     -->
   </head>
 
@@ -39,23 +49,33 @@
         <img src="img/logo-02.png" class="img-responsive">
       </div>      
       <div class="central-menu-item col-md-2 col-md-offset-0 col-md-offset-1 col-xs-8 col-xs-offset-2">
-        <a href="#zero"><h2>Articoli</h2></a>
+        <a href="#titolo_articolo"><h1>Articoli</h1></a>
       </div>
       <div class="central-menu-item col-md-2 col-md-offset-0 col-xs-8 col-xs-offset-2 ">
-        <a href="#team"><h2>Team</h2></a>
+        <a href="#team"><h1>Team</h1></a>
       </div>
       <div class="central-menu-item col-md-2 col-md-offset-0 col-xs-8 col-xs-offset-2">
-        <a href="#social"><h2>Social</h2></a>
+        <a href="#social"><h1>Contatti</h1></a>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-xs-offset-1" style="padding-top: 10%;padding-bottom: 2%;">
+        <span style="font-family:'Open-Sans', sans-serif;font-size: 16px;">Share: &nbsp;</span> 
+        <div class="social-likes" data-url="www.datamol.es" data-title="Data Moles">
+          <div class="facebook" title="Share link on Facebook"></div>
+          <div class="twitter" title="Share link on Twitter"></div>
+          <div class="plusone" title="Share link on Google+"></div>
+        </div>
+      </div>  
+    </div>  
 
 
 
     <div id="titolo_articolo" class="row fascia">
       <div class="col-xs-8 col-xs-offset-2">
-        <div><h1>Il futuro compromesso:</h1></div>
+        <div><h2>Il futuro compromesso:</h2></div>
         <div><h2>quando l'investimento in formazione non genera occupazione</h2></div>
-        <div class="fb-share-button" data-href="www.datamol.es" data-type="button_count" og:title="ProvaProva"></div>  
       </div>
     </div>
 
@@ -169,7 +189,7 @@
               <div class="service-item">
                 <h3>Alessandra Del Zotto</h3>
                 <img src="img/delzotto.jpg" class="img-responsive img-rounded" alt="Responsive img">
-                <p class="shortbio">Classe 1987, laurea in Letteratura e filologia italiana conseguita a Torino e Master di Giornalismo investigativo (Agi) nella sua edizione milanese 2013. Dal 2008 collaboro con testate locali veneziane e torinesi e attualmente svolgo un part-time presso l’ufficio stampa del Consiglio regionale del Veneto.</p>
+                <p class="shortbio">Classe 1987, laurea in Letteratura e filologia italiana conseguita a Torino e Master di Giornalismo investigativo (Agi) nella sua edizione milanese 2013. Dal 2008 collabora con testate locali veneziane e torinesi e attualmente svolge un part-time presso l’ufficio stampa del Consiglio regionale del Veneto.</p>
               </div>
             </div>              
             <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
@@ -217,6 +237,7 @@
 
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/social-likes.min.js"></script>
 
 <script>
   $(function() {
