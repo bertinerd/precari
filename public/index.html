@@ -6,6 +6,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta property="og:title" content="Il futuro compromesso: quando l'investimento in formazione non genera occupazione"/>
+    <meta property="og:image" content="http://davidwalsh.name/wp-content/themes/klass/img/facebooklogo.png"/>
+
+
     <title>Data Moles</title>
 
     <!-- Bootstrap core CSS -->
@@ -19,31 +23,44 @@
 
   <body>
 
+  <!-- FB SDK root   -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>    
+  <!--  -->
     <div class="row" id="central-menu">
-      <div class="central-menu-item col-md-2 col-md-offset-1">
+      <div class="col-md-3 col-md-offset-1 col-xs-6 col-xs-offset-3" id="central-menu-logo">
+        <img src="img/logo-02.png" class="img-responsive img-circle">
+      </div>      
+      <div class="central-menu-item col-md-2 col-md-offset-0 col-md-offset-1 col-xs-8 col-xs-offset-2">
         <a href="#zero"><h2>Articoli</h2></a>
       </div>
-      <div class="central-menu-item col-md-2">
+      <div class="central-menu-item col-md-2 col-md-offset-0 col-xs-8 col-xs-offset-2 ">
         <a href="#team"><h2>Team</h2></a>
       </div>
-      <div class="col-md-2" id="central-menu-logo">
-        <img src="img/logo-02.png" class="img-responsive img-circle">
-      </div>
-      <div class="central-menu-item col-md-2">
+      <div class="central-menu-item col-md-2 col-md-offset-0 col-xs-8 col-xs-offset-2">
         <a href="#social"><h2>Social</h2></a>
       </div>
-      <div class="central-menu-item col-md-2"><h2>Contatti</h2></div>
     </div>
 
 
 
-    <div id="titolo_articolo" class="fascia">
-        <div><h1>Il nostro bel titolozzo.</h1></div>
+    <div id="titolo_articolo" class="row fascia">
+      <div class="col-xs-8 col-xs-offset-2">
+        <div><h1>Il futuro compromesso:</h1></div>
+        <div><h2>quando l'investimento in formazione non genera occupazione</h2></div>
+        <div class="fb-share-button" data-href="www.datamol.es" data-type="button_count" og:title="ProvaProva"></div>  
+      </div>
     </div>
 
     <div id="zero" class="fascia">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
           <p><span class='miniature'>G</span>ermania e Italia investono entrambe il 4,2 % del Pil nell’istruzione (dati 2011). A dispetto di ciò, e di tassi di vecchiaia e natalità simili se non uguali, la ricaduta sul mercato del lavoro è molto diversa. In Italia infatti si rilevano picchi di disoccupazione regionale giovanile che superano il 50%, contro una disoccupazione media tra i giovani tedeschi dell’8,1.</p>
           <p>Viene dunque da chiedersi se funzioni l’equazione istruzione uguale occupazione. E perché in Italia l’investimento pubblico in formazione non produca un numero adeguato di posti di lavoro. </p>
           </div>
@@ -57,7 +74,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <p><span class="miniature">I</span>l nucleo famigliare è cambiato: dalla piramide classica con più figli, genitori e pochi nonni ancora in vita, si è passati ad una struttura rovesciata composta da un maggior numero di anziani e sostenuta da meno giovani che sono troppo spesso senza lavoro o con impieghi precari. 
             Proprio a loro però spetterebbe il compito di far girare l'economia e di contribuire ai costi sociali.</p>
           </div>
@@ -71,7 +88,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <p><span class="miniature">I</span>talia e Germania sono in una situazione di squilibrio generazionale. Lo dicono i dati dell’indice di dipendenza che calcola quanti individui in età non attiva ci sono ogni 100 in età attiva.</p>
             <p>Il carico sociale e economico sulla popolazione dentro al mercato del lavoro è, secondo l’indicazione dell’Istat, superiore al livello di guardia del 50 per cento per entrambe le nazioni: parliamo del 53,5 in Italia e del 51,2 in Germania.</p>
             <p>Sono quindi stati “vecchi”, con un alto numero di anziani fuori dal circuito lavorativo. 
@@ -82,16 +99,16 @@
 
     <div id="tre" class="fascia">
       <div class="row">
-        <div class="col-md-5 col-md-offset-2">
+        <div class="col-md-4 col-md-offset-2 col-xs-10 col-xs-offset-1">
           <p><span class="miniature">O</span>ltre ad una struttura familiare e un indice di dipendenza molto simile, Italia e Germania hanno ancora un elemento chiave in comune.</p>
           <p>I due paesi, nel 2011, hanno investito in spesa pubblica dedicata all’istruzione la stessa percentuale di prodotto interno lordo (4,2%), che tradotto in termini di impegno pro capite significa 1411 euro nel Belpaese e 1714 euro in Germania. Un gap di 300 euro che non sembra giustificare la differenza di tassi di disoccupazione molto lontani tra loro in pressoché tutte le fasce d’età..</p>
         </div>
-        <div class="col-md-3">
-            <img src="img/istruzione_cappello.png" class="img-responsive img-side" alt="Responsive img">
+        <div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2">
+            <img src="img/istruzione_cappello.png" class="img-responsive img-side " alt="Responsive img">
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">  
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">  
         <p>Considerata la popolazione in età attiva, non ha lavoro il 10,7 per cento delle persone in Italia, contro il 5,7 tedesco (dati 2012). Ma il problema aumenta tra i giovanissimi tra i 15 e i 24 anni. Se in Germania sono disoccupati 8 ragazzi su cento, in Italia il fenomeno assume dimensioni preoccupanti: 35, 3 per cento.</p>
         </div>
       </div>      
@@ -104,7 +121,7 @@
 
     <div id="quattro" class="fascia">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <p><span class="miniature">A</span> livello regionale, la distanza in Italia tra investimenti nell’istruzione e ritorno in termini di lavoro è evidente.</p>
         <p>Da una parte le regioni del centro-sud ricevono una percentuale di fondi destinati alla formazione nettamente più alta rispetto a quelle del nord, dall’altra i livelli di disoccupazione sono inversamente proporzionali. Ai due estremi Lombardia e Campania: alla prima per l’istruzione viene destinato il 2,5% del Pil, alla seconda il 7,2%. In termini di disoccupazione però la Lombardia si attesta al 20,7% mentre la Calabria al 40,4%.</p>
         <p>Fino a che punto le inefficienze del sistema formativo italiano incidono sulla disparità tra investimento nell’istruzione e accesso al mondo del lavoro?</p>
@@ -122,13 +139,13 @@
     <div id="team" class="services">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
+          <div class="col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 text-center ">
             <h2>Chi siamo</h2>
             <hr>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-md-offset-2">
+          <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
             <div class="service-item">
               <h3>Caterina Ardizzon</h3>
               <img src="img/matteo-renzi.jpg" class="img-responsive img-rounded" alt="Responsive img">
@@ -136,45 +153,49 @@
               <!-- <p><i class="fa fa-twitter"></i><a href="https://twitter.com/RenzoMattei"> @RenzoMattei</a></p> -->
             </div>
           </div>
-          <div class="col-md-3 col-md-offset-2">
+          <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
             <div class="service-item">
               <h3>Luca Bertinetto</h3>
               <img src="img/bertinetto.jpg" class="img-responsive img-rounded" alt="Responsive img">
               <p class="shortbio">Nel 2013 Luca consegue la laurea magistrale in ingegneria informatica in seguito ad un percorso congiunto tra il Politecnico di Torino e quello di Parigi. Attualmente è ricercatore in <i>Computer Vision</i>: il suo compito è cercare di simulare la percezione del visibile mediante algoritmi. Quando ha tempo, gli piace creare siti web, leggere e correre. Contemporaneamente.</p>
-              <!-- <p><i class="fa fa-twitter"></i><a href="https://twitter.com/KimJongNumberUn"> @KimJongNumberUn</a></p>         -->
+              <span class="shortbio-contact"><a href="https://twitter.com/bertinerd"><i class="fa fa-twitter"></i></a></span>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="shortbio-contact"><a href="it.linkedin.com/in/lucabertinetto/"><i class="fa fa-linkedin-square"></i></a></span>         
             </div>
           </div>          
         </div>
           <div class="row">
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
               <div class="service-item">
                 <h3>Alessandra Del Zotto</h3>
                 <img src="img/delzotto.jpg" class="img-responsive img-rounded" alt="Responsive img">
                 <p class="shortbio">Classe 1987, laurea in Letteratura e filologia italiana conseguita a Torino e Master di Giornalismo investigativo (Agi) nella sua edizione milanese 2013. Dal 2008 collaboro con testate locali veneziane e torinesi e attualmente svolgo un part-time presso l’ufficio stampa del Consiglio regionale del Veneto.</p>
               </div>
             </div>              
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
               <div class="service-item">
                 <h3>Giulia Gaido</h3>
                 <img src="img/giulia.jpg" class="img-responsive img-rounded" alt="Responsive img">
-                <p class="shortbio">Classe 1987, laurea in Letteratura e filologia italiana conseguita a Torino e Master di Giornalismo investigativo (Agi) nella sua edizione milanese 2013. Dal 2008 collabora con testate locali veneziane e torinesi e attualmente svolge un part-time presso l’ufficio stampa del Consiglio regionale del Veneto.</p>
+                <p class="shortbio">24 anni, una laurea in Disegno Industriale conseguita nel 2012 e una specializzazione in Ecodesign in corso, entrambe presso il Politecnico di Torino. Vincitrice del concorso Eden Eco Design Award 2014. Ama progettare “dal cucchiaio alla città”, meglio se il cucchiaio è biodegradabile e la città resiliente.</p>
               </div>
             </div>      
           </div>        
           <div class="row">
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
               <div class="service-item">
                 <h3>Sara Perro</h3>
                 <img src="img/perro.jpg" class="img-responsive img-rounded" alt="Responsive img">
                 <p class="shortbio">Giornalista, 25 anni, scrive per un mensile ed un settimanale locali della provincia di Torino dal 2008. Terza al concorso giornalistico “Oltre le righe” di Legambiente edizione 2013, collabora con il giornale “Nuova Ecologia”. Si laurea nel 2012 a Torino con una tesi in giornalismo e storia delle donne. Ha conseguito il master AGI di giornalismo investigativo, edizione milanese 2013.</p>
+                <span class="shortbio-contact"><a href="https://twitter.com/sara_perro"><i class="fa fa-twitter"></i></a></span>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="shortbio-contact"><a href="it.linkedin.com/pub/sara-perro/5a/a93/8a3"><i class="fa fa-linkedin-square"></i></a></span>                
               </div>
             </div>              
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-3 col-md-offset-2 col-xs-8 col-xs-offset-2">
               <div class="service-item">
                 <h3>Paolo Procaccini</h3>
                 <img src="img/paolo.jpg" class="img-responsive img-rounded" alt="Responsive img">
                 <p class="shortbio">Paolo è giornalista dal 2009. Ha collaborato con diversi giornali tra cui La Stampa e Il Fatto Quotidiano. Per Eco dalle Città ha pubblicato diversi articoli sulla strana vicenda della Dukyc Day Dream e i filtri anti-particolato. Ha concluso il master in giornalismo investigativo a dicembre 2013.</p>
-                <!-- <p><i class="fa fa-globe"></i><a href="http://www.peppapig.com"> www.peppapig.com</a></p>               -->
               </div>
             </div>     
           </div> 
@@ -183,36 +204,19 @@
     
     <!-- Footer -->
     <footer id="social">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-4x"></i></li>
-              <li><i class="fa fa-twitter fa-4x"></i></li>
-              <li><i class="fa fa-envelope fa-4x"></i></li>
-            </ul>
-            <div class="top-scroll">
-              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-            </div>
-            <hr>
-            <p>Copyright &copy; Data Moles 2014</p>
-          </div>
-        </div>
-      </div>
+      <div class="row">
+        <div class="col-md-2 col-md-offset-2"><i class="fa fa-google-plus fa-4x"></i></div>    
+        <div class="col-md-2"><i class="fa fa-twitter fa-4x"></i></div>    
+        <div class="col-md-2"><i class="fa fa-facebook fa-4x"></i></div>    
+        <div class="col-md-2"><i class="fa fa-envelope fa-4x"></i></div>    
+      </div>   
     </footer>
     <!-- /Footer -->
-
-
-
+    <p id="copyright">Copyright &copy; Data Moles 2014</p>
   </body>
 
-<!-- <form>
-  <label><input type="radio" name="mode" value="grouped"> Grouped</label>
-  <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
-</form> -->
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
 
 <script>
   $(function() {
@@ -231,129 +235,6 @@
       }
     });
   });
-</script>
-
-
-
-
-<script>
-
-var n = 2, // number of layers
-    m = 20, // number of samples per layer
-    stack = d3.layout.stack(),
-    layers = stack(d3.range(n).map(function() { return bumpLayer(m, .1); })),
-    yGroupMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y; }); }),
-    yStackMax = d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); });
-
-var margin = {top: 40, right: 10, bottom: 20, left: 10},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-var x = d3.scale.ordinal()
-    .domain(d3.range(m))
-    .rangeRoundBands([0, width], .08);
-
-var y = d3.scale.linear()
-    .domain([0, yStackMax])
-    .range([height, 0]);
-
-var color = d3.scale.linear()
-    .domain([0, n - 1])
-    .range(["#aad", "#556"]);
-
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .tickSize(0)
-    .tickPadding(6)
-    .orient("bottom");
-
-var svg = d3.select("#multi_plot").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-var layer = svg.selectAll(".layer")
-    .data(layers)
-  .enter().append("g")
-    .attr("class", "layer")
-    .style("fill", function(d, i) { return color(i); });
-
-var rect = layer.selectAll("rect")
-    .data(function(d) { return d; })
-  .enter().append("rect")
-    .attr("x", function(d) { return x(d.x); })
-    .attr("y", height)
-    .attr("width", x.rangeBand())
-    .attr("height", 0);
-
-rect.transition()
-    .delay(function(d, i) { return i * 10; })
-    .attr("y", function(d) { return y(d.y0 + d.y); })
-    .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); });
-
-svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
-
-d3.selectAll("input").on("change", change);
-
-var timeout = setTimeout(function() {
-  d3.select("input[value=\"grouped\"]").property("checked", true).each(change);
-}, 2000);
-
-function change() {
-  clearTimeout(timeout);
-  if (this.value === "grouped") transitionGrouped();
-  else transitionStacked();
-}
-
-function transitionGrouped() {
-  y.domain([0, yGroupMax]);
-
-  rect.transition()
-      .duration(500)
-      .delay(function(d, i) { return i * 10; })
-      .attr("x", function(d, i, j) { return x(d.x) + x.rangeBand() / n * j; })
-      .attr("width", x.rangeBand() / n)
-    .transition()
-      .attr("y", function(d) { return y(d.y); })
-      .attr("height", function(d) { return height - y(d.y); });
-}
-
-function transitionStacked() {
-  y.domain([0, yStackMax]);
-
-  rect.transition()
-      .duration(500)
-      .delay(function(d, i) { return i * 10; })
-      .attr("y", function(d) { return y(d.y0 + d.y); })
-      .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
-    .transition()
-      .attr("x", function(d) { return x(d.x); })
-      .attr("width", x.rangeBand());
-}
-
-// Inspired by Lee Byron's test data generator.
-function bumpLayer(n, o) {
-
-  function bump(a) {
-    var x = 1 / (.1 + Math.random()),
-        y = 2 * Math.random() - .5,
-        z = 10 / (.1 + Math.random());
-    for (var i = 0; i < n; i++) {
-      var w = (i / n - y) * z;
-      a[i] += x * Math.exp(-w * w);
-    }
-  }
-
-  var a = [], i;
-  for (i = 0; i < n; ++i) a[i] = o + o * Math.random();
-  for (i = 0; i < 5; ++i) bump(a);
-  return a.map(function(d, i) { return {x: i, y: Math.max(0, d)}; });
-}
-
 </script>
 
 </html>

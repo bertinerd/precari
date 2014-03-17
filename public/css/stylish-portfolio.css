@@ -18,9 +18,9 @@ padding-bottom: 1%;
 
 h1 {
   font-family: 'Poiret One', cursive;
-  font-weight: bold;
-  line-height: 46px;
-  font-size: 60px;
+  font-weight: normal;
+  line-height: 50px;
+  font-size: 48px;
   color: #333333;
 }
 
@@ -28,7 +28,7 @@ h2 {
  font-family: 'Poiret One', cursive;
   font-weight: normal;
   line-height: 46px;
-  font-size: 48px;
+  font-size: 36px;
   color: #333333;
 }
 
@@ -56,7 +56,7 @@ h3 {
 
 
 .central-menu-item {
-  padding-top: 6%;
+  padding-top: 10%;
   padding-bottom: 2%;
   display: table-cell;
   text-align: center;
@@ -110,10 +110,10 @@ text-align: justify;
 line-height: 35px;
 }
 
-.img-side {
-padding-top: 15%;
+/*.img-side {
+padding-top: 5%;
 }
-
+*/
 #uno, #tre {
 background-color: #f0f4f7;
 }
@@ -141,6 +141,12 @@ background-color: white;
   padding-top: 10%;
 }
 
+.shortbio-contact{
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 25px;
+  line-height: 20px;
+  text-align: justify;
+}
 .service-item {
   margin-bottom: 15px;
 }
@@ -158,8 +164,17 @@ i.service-icon {
 }
 
 footer {
-  padding: 100px 0;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  text-align: center;
   background-color: white;
+}
+
+#copyright {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+
 }
 
 
